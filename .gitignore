@@ -11,4 +11,10 @@ settings.gradle
 *.class
 *.lock
 *.bin
-*.idea
+.idea/workspace.xml
+
+.gradle/
+.idea/
+build/
+out/
+*.ear
