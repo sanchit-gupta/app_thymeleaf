@@ -16,4 +16,12 @@ public class BootstrapController {
         return "home";
     }
 
+    @RequestMapping("/staticResource")
+    public String staticResource() {
+        logger.info("from staticResource action");
+        logger.debug("from staticResource action");
+        logger.error("from staticResource action");
+        return "staticResource";
+    }
+
 }
