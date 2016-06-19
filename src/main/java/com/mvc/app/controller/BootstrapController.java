@@ -28,4 +28,11 @@ public class BootstrapController {
         return "appindex";
     }
 
+    @RequestMapping("/createException")
+    public String createException() {
+        logger.info("from appindex");
+        int x = 10/0;
+        return "home";
+    }
+
 }
