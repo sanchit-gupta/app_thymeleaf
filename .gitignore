@@ -1,6 +1,5 @@
 .gradle/
 .idea/
-DemoExceptionBasedAPI.iml
 build/
 out/
 settings.gradle
@@ -10,3 +9,5 @@ settings.gradle
 *.ear
 *.lock
 *.bin
+.idea/workspace.xml
+.idea/gradle.xml
