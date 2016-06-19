@@ -22,7 +22,7 @@ public class CustomErrorController implements ErrorController {
 
     @RequestMapping("/error")
     public String list(Model model) {
-        model.addAttribute("pageTitle", "Custom Error page");
-        return "customErrorPage";
+        model.addAttribute("pageTitle", "Custom Error page, action /error is being called");
+        return "/error/customErrorPage";
     }
 }
